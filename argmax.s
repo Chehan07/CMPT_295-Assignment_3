@@ -15,22 +15,30 @@ argmax:
 
     # Prologue
 
+    lw s4, 0(a0)  
+    addi s1, x0, 4                                       
+    add s5, x0, x0  
+    add s0, x0, x0              
 
 loop_start:
 
-
-
-
-
-
+    beq s0, a1, loop_end        
+    mul s2, s1, s0              
+    add s2, s2, a0              
+    lw s3, 0(s2)                
+    ble s3, s4, loop_continue   
+    mv s4, s3                   
+    mv s5, s0                  
 
 
 loop_continue:
 
-
+    addi s0, s0, 1
+    j loop_start
 
 loop_end:
     
+    mv a0, s5
 
     # Epilogue
 
