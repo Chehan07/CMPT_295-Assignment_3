@@ -1,0 +1,423 @@
+Name:chehan07 
+Hash:28fa08b64893463c620c29688c07a07a90250825
+Timestamp=2020-10-28 23:47:37 -0700 
+## ********************FAILED********************
+### *****python3 part2_tester.py simple1/input0*****
+ ```
+Starting simple1/input0 test
+--- 
+
++++ 
+
+@@ -1,6 +1,6 @@
+
+ -34 
+-884 
+--1076 
+-74 
+-394 
++-1600 
++99132 
++1283882 
++3380804 
+ 
+--- 
+
++++ 
+
+@@ -1 +1 @@
+
+-1
++4
+simple1/input0 test has failed. Phase 2
+
+```
+### *****python3 part2_tester.py simple1/input1*****
+ ```
+Starting simple1/input1 test
+--- 
+
++++ 
+
+@@ -1,6 +1,6 @@
+
+ 612 
+--765 
+-0 
+-1989 
+-5202 
++27387 
++-1696770 
++-21975237 
++-57865977 
+ 
+--- 
+
++++ 
+
+@@ -1 +1 @@
+
+-4
++1
+simple1/input1 test has failed. Phase 2
+
+```
+### *****python3 part2_tester.py simple1/input2*****
+ ```
+Starting simple1/input2 test
+--- 
+
++++ 
+
+@@ -1,6 +1,6 @@
+
+ -98 
+-388 
+--2212 
+-118 
+-8 
++-4580 
++283764 
++3675094 
++9677488 
+ 
+--- 
+
++++ 
+
+@@ -1 +1 @@
+
+-1
++4
+simple1/input2 test has failed. Phase 2
+
+```
+### *****python3 part2_tester.py simple2/input0*****
+ ```
+Starting simple2/input0 test
+--- 
+
++++ 
+
+@@ -1,5 +1,5 @@
+
+--9 162 74 
+-33 126 22 
+--35 -258 -74 
+--2 -294 -118 
++-9 -78 198 
++218 1722 138 
++1998 20250 6474 
++42498 -36774 -52758 
+ 
+--- 
+
++++ 
+
+@@ -1,5 +1,5 @@
+
+-0 162 74 
+-33 126 22 
+-0 0 0 
+-0 0 0 
++0 0 198 
++218 1722 138 
++1998 20250 6474 
++42498 0 0 
+ 
+--- 
+
++++ 
+
+@@ -1,4 +1,4 @@
+
+--462 3744 2208 
+--165 1314 778 
+-1188 6804 1828 
++760292 1251642 412662 
++-2728414 -514860 -160164 
++1054314 -100008 -44052 
+ 
+--- 
+
++++ 
+
+@@ -1 +1 @@
+
+-7
++1
+simple2/input0 test has failed. Phase 0
+
+```
+### *****python3 part2_tester.py simple2/input1*****
+ ```
+Starting simple2/input1 test
+--- 
+
++++ 
+
+@@ -1,5 +1,5 @@
+
+--19 43 
+-43 29 
+--41 -63 
+-8 -76 
++-19 -47 
++43 119 
++-41 -117 
++8 14 
+ 
+--- 
+
++++ 
+
+@@ -1,5 +1,5 @@
+
+-0 43 
+-43 29 
+ 0 0 
+-8 0 
++43 119 
++0 0 
++8 14 
+ 
+--- 
+
++++ 
+
+@@ -1,4 +1,4 @@
+
+--482 1056 
+--719 371 
+-1748 1646 
++-482 -1456 
++-6503 -18949 
++-240656 -702198 
+ 
+--- 
+
++++ 
+
+@@ -1 +1 @@
+
+-4
++0
+simple2/input1 test has failed. Phase 0
+
+```
+### *****python3 part2_tester.py simple2/input2*****
+ ```
+Starting simple2/input2 test
+--- 
+
++++ 
+
+@@ -1,5 +1,5 @@
+
+-681 13 -199 -23 -296 
+-543 59 223 -49 392 
+--1101 -81 -149 75 -296 
+--1242 -46 188 56 252 
++681 2023 43164 -4066 71506 
++2250156 121360 -42222 -125426 34412 
++-23355066 4714830 47324782 -2464674 76791328 
++6696024 279636 -765302 -321858 -950108 
+ 
+--- 
+
++++ 
+
+@@ -1,5 +1,5 @@
+
+-681 13 0 0 0 
+-543 59 223 0 392 
+-0 0 0 75 0 
+-0 0 188 56 252 
++681 2023 43164 0 71506 
++2250156 121360 0 0 34412 
++0 4714830 47324782 0 76791328 
++6696024 279636 0 0 0 
+ 
+--- 
+
++++ 
+
+@@ -1,4 +1,4 @@
+
+-15552 -384 -302 5565 -1708 
+-5457 -139 -12959 -5403 -17836 
+-29082 2306 12728 800 20412 
++68961330 299598572 -1312038454 0 544835804 
++-433092120 -136070342 -1182601582 0 -1919097188 
++248415750 -26330458 -377993960 0 -612090708 
+ 
+--- 
+
++++ 
+
+@@ -1 +1 @@
+
+-10
++4
+simple2/input2 test has failed. Phase 0
+
+```
+
+****************************************
+## ********************SUCCESS********************
+### *****timeout 120 java -jar venus.jar ./test_files/test_dot.s > ./out/test_dot.out*****
+ ```
+```
+### *****diff ./out/test_dot.out ./ref/test_dot.out*****
+ ```
+```
+### *****timeout 120 java -jar venus.jar ./test_files/test_argmax.s > ./out/test_argmax.out*****
+ ```
+```
+### *****diff ./out/test_argmax.out ./ref/test_argmax.out*****
+ ```
+```
+### *****timeout 120 java -jar venus.jar ./test_files/test_relu.s > ./out/test_relu.out*****
+ ```
+```
+### *****diff ./out/test_relu.out ./ref/test_relu.out*****
+ ```
+```
+### *****timeout 120 java -jar venus.jar ./test_files/test_matmul.s > ./out/test_matmul.out*****
+ ```
+```
+### *****diff ./out/test_matmul.out ./ref/test_matmul.out*****
+ ```
+```
+### *****timeout 120 java -jar venus.jar ./test_files/test_read_matrix.s > ./out/test_read_matrix.out*****
+ ```
+```
+### *****diff ./out/test_read_matrix.out ./ref/test_read_matrix.out*****
+ ```
+```
+### *****timeout 120 java -jar venus.jar ./test_files/main.s ./inputs/simple0/bin/inputs/input0.bin ./inputs/simple0/bin/m0.bin ./inputs/simple0/bin/m1.bin -ms -1 > ./out/simple0/input0.trace*****
+ ```
+```
+### *****python3 part2_tester.py simple0/input0*****
+ ```
+Starting simple0/input0 test
+simple0/input0 test has passed.
+
+```
+### *****timeout 120 java -jar venus.jar ./test_files/main.s ./inputs/simple0/bin/inputs/input1.bin ./inputs/simple0/bin/m0.bin ./inputs/simple0/bin/m1.bin -ms -1 > ./out/simple0/input1.trace*****
+ ```
+```
+### *****python3 part2_tester.py simple0/input1*****
+ ```
+Starting simple0/input1 test
+simple0/input1 test has passed.
+
+```
+### *****timeout 120 java -jar venus.jar ./test_files/main.s ./inputs/simple0/bin/inputs/input2.bin ./inputs/simple0/bin/m0.bin ./inputs/simple0/bin/m1.bin -ms -1 > ./out/simple0/input2.trace*****
+ ```
+```
+### *****python3 part2_tester.py simple0/input2*****
+ ```
+Starting simple0/input2 test
+simple0/input2 test has passed.
+
+```
+### *****timeout 120 java -jar venus.jar ./test_files/main.s ./inputs/simple1/bin/inputs/input0.bin ./inputs/simple1/bin/m0.bin ./inputs/simple1/bin/m1.bin -ms -1 > ./out/simple1/input0.trace*****
+ ```
+```
+### *****timeout 120 java -jar venus.jar ./test_files/main.s ./inputs/simple1/bin/inputs/input1.bin ./inputs/simple1/bin/m0.bin ./inputs/simple1/bin/m1.bin -ms -1 > ./out/simple1/input1.trace*****
+ ```
+```
+### *****timeout 120 java -jar venus.jar ./test_files/main.s ./inputs/simple1/bin/inputs/input2.bin ./inputs/simple1/bin/m0.bin ./inputs/simple1/bin/m1.bin -ms -1 > ./out/simple1/input2.trace*****
+ ```
+```
+### *****timeout 120 java -jar venus.jar ./test_files/main.s ./inputs/simple2/bin/inputs/input0.bin ./inputs/simple2/bin/m0.bin ./inputs/simple2/bin/m1.bin -ms -1 > ./out/simple2/input0.trace*****
+ ```
+```
+### *****timeout 120 java -jar venus.jar ./test_files/main.s ./inputs/simple2/bin/inputs/input1.bin ./inputs/simple2/bin/m0.bin ./inputs/simple2/bin/m1.bin -ms -1 > ./out/simple2/input1.trace*****
+ ```
+```
+### *****timeout 120 java -jar venus.jar ./test_files/main.s ./inputs/simple2/bin/inputs/input2.bin ./inputs/simple2/bin/m0.bin ./inputs/simple2/bin/m1.bin -ms -1 > ./out/simple2/input2.trace*****
+ ```
+```
+### *****timeout 120 java -jar venus.jar ./test_files/main.s ./inputs/mnist/bin/inputs/mnist_input0.bin ./inputs/mnist/bin/m0.bin ./inputs/mnist/bin/m1.bin -ms -1 > ./out/mnist/mnist_input0.trace*****
+ ```
+```
+### *****python3 part2_tester.py mnist/mnist_input0*****
+ ```
+Starting mnist/mnist_input0 test
+mnist/mnist_input0 test has passed.
+
+```
+### *****timeout 120 java -jar venus.jar ./test_files/main.s ./inputs/mnist/bin/inputs/mnist_input1.bin ./inputs/mnist/bin/m0.bin ./inputs/mnist/bin/m1.bin -ms -1 > ./out/mnist/mnist_input1.trace*****
+ ```
+```
+### *****python3 part2_tester.py mnist/mnist_input1*****
+ ```
+Starting mnist/mnist_input1 test
+mnist/mnist_input1 test has passed.
+
+```
+### *****timeout 120 java -jar venus.jar ./test_files/main.s ./inputs/mnist/bin/inputs/mnist_input2.bin ./inputs/mnist/bin/m0.bin ./inputs/mnist/bin/m1.bin -ms -1 > ./out/mnist/mnist_input2.trace*****
+ ```
+```
+### *****python3 part2_tester.py mnist/mnist_input2*****
+ ```
+Starting mnist/mnist_input2 test
+mnist/mnist_input2 test has passed.
+
+```
+### *****timeout 120 java -jar venus.jar ./test_files/main.s ./inputs/mnist/bin/inputs/mnist_input3.bin ./inputs/mnist/bin/m0.bin ./inputs/mnist/bin/m1.bin -ms -1 > ./out/mnist/mnist_input3.trace*****
+ ```
+```
+### *****python3 part2_tester.py mnist/mnist_input3*****
+ ```
+Starting mnist/mnist_input3 test
+mnist/mnist_input3 test has passed.
+
+```
+### *****timeout 120 java -jar venus.jar ./test_files/main.s ./inputs/mnist/bin/inputs/mnist_input4.bin ./inputs/mnist/bin/m0.bin ./inputs/mnist/bin/m1.bin -ms -1 > ./out/mnist/mnist_input4.trace*****
+ ```
+```
+### *****python3 part2_tester.py mnist/mnist_input4*****
+ ```
+Starting mnist/mnist_input4 test
+mnist/mnist_input4 test has passed.
+
+```
+### *****timeout 120 java -jar venus.jar ./test_files/main.s ./inputs/mnist/bin/inputs/mnist_input5.bin ./inputs/mnist/bin/m0.bin ./inputs/mnist/bin/m1.bin -ms -1 > ./out/mnist/mnist_input5.trace*****
+ ```
+```
+### *****python3 part2_tester.py mnist/mnist_input5*****
+ ```
+Starting mnist/mnist_input5 test
+mnist/mnist_input5 test has passed.
+
+```
+### *****timeout 120 java -jar venus.jar ./test_files/main.s ./inputs/mnist/bin/inputs/mnist_input6.bin ./inputs/mnist/bin/m0.bin ./inputs/mnist/bin/m1.bin -ms -1 > ./out/mnist/mnist_input6.trace*****
+ ```
+```
+### *****python3 part2_tester.py mnist/mnist_input6*****
+ ```
+Starting mnist/mnist_input6 test
+mnist/mnist_input6 test has passed.
+
+```
+### *****timeout 120 java -jar venus.jar ./test_files/main.s ./inputs/mnist/bin/inputs/mnist_input7.bin ./inputs/mnist/bin/m0.bin ./inputs/mnist/bin/m1.bin -ms -1 > ./out/mnist/mnist_input7.trace*****
+ ```
+```
+### *****python3 part2_tester.py mnist/mnist_input7*****
+ ```
+Starting mnist/mnist_input7 test
+mnist/mnist_input7 test has passed.
+
+```
+### *****timeout 120 java -jar venus.jar ./test_files/main.s ./inputs/mnist/bin/inputs/mnist_input8.bin ./inputs/mnist/bin/m0.bin ./inputs/mnist/bin/m1.bin -ms -1 > ./out/mnist/mnist_input8.trace*****
+ ```
+```
+### *****python3 part2_tester.py mnist/mnist_input8*****
+ ```
+Starting mnist/mnist_input8 test
+mnist/mnist_input8 test has passed.
+
+```
